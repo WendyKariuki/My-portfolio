@@ -1,0 +1,178 @@
+body{
+    background-color: white;
+
+}
+#section1 .navbar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: larger;
+}
+
+a:hover{
+    color: purple;
+}
+
+.portfolio{
+    background-image: url('./images/imagecode.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: 100vh;
+}
+
+
+
+.whoami{
+    width: 50%;
+    font-size: x-large;
+    padding-top: 100px;
+    color: purple;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.whoami h1{
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 20px;
+    color: purple;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.whoami h2{
+    font-weight: 100;
+    color: purple;
+    tdisplay: flex;
+    justify-content: center;
+}
+
+.header{
+    font-size: 15px;
+    color: aqua;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container .header2{
+    margin-bottom: 100px;
+    font-weight: 500;
+    text-align: center;  
+    border-bottom: 1px solid grey;   text-align: center;
+}
+
+.container .aboutme{
+    font-size: 20px;
+    word-spacing: 10px; 
+    margin-top: 30px;   
+}
+
+.divider{
+    border-top: 0.1px solid black;
+}
+
+.header1{
+   display: flex;
+    text-align: center;
+    color: purple;  
+}
+.column{
+    float: left;
+    width: 33.33%;
+    font-size: 40px;
+    height: 100vh;
+    color: white;
+}
+.container2{
+    background-image: url('./images/ed.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    height: 100vh;
+    color: white;
+    padding-top: 60px;
+    background-size: cover;
+}
+.header4{
+   background-color: purple; 
+   color: white;
+}
+.pbar{
+    width: 1000px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.container3{
+    background-image: url('./images/skills.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: 100vh;
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+.header3{
+   padding-top: 60px;
+    font-size: 15px;
+    color: white;
+    background-color: purple;
+    margin-bottom: 30px;
+}
+
+.container5 .social-icons a{
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    margin: auto;    
+}
+.social-icons a:hover {
+    background-color: purple;
+    opacity: 0.7;
+}
+
+.footer{
+    position: fixed;
+    left: 40%;
+    bottom: 0;  
+}
+
+.container5{
+    background-image: url('./images/contact.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: 100vh; 
+}
+.contacts{
+  padding-left: 20px;
+  color: purple;
+  font-weight: 400;
+  font-size: 30px;
+}
